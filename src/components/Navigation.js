@@ -11,17 +11,25 @@ import profile from "../assets/images/images.jpeg";
 const Navigation = () => {
   return (
     <div className="grid grid-cols-16 mt-2">
-      <div className="the north col-start-2 col-span-7 justify-between  flex flex-row items-center  gap-2 mb-2">
-        <img src={north} alt="" className=" text-white  " />
-        <span className="text-white text-xl font-semibold ">The North</span>
-        <img src={dashboard} alt="" className=" text-white  ml-6" />
-        <span className=" text-[#4D52C0] text-xl font-normal">Dashboard</span>
-        <img src={product} alt="" className=" text-white  ml-6" />
-        <span className=" text-white text-xl font-normal">Product</span>
-        <img src={performance} alt="" className=" text-white  ml-6" />
-        <span className=" text-white text-xl font-normal">Performance</span>
-        <img src={deliverable} alt="" className=" text-white  ml-6" />
-        <span className=" text-white text-xl font-normal">Deliverable</span>
+      <div className="the north col-start-2 col-span-10 justify-around  flex flex-row items-center  gap-2 mb-2">
+        <img src={north} alt="" className=" text-white -ml-8 " />
+        <span className="text-white text-3xl -ml-14 font-medium ">
+          The North
+        </span>
+        <img src={dashboard} alt="" className=" text-white  -ml-1" />
+        <span className=" text-[#676deb] text-xl -ml-16 font-normal">
+          Dashboard
+        </span>
+        <img src={product} alt="" className=" text-white  -ml-6" />
+        <span className=" text-white text-xl -ml-16 font-normal">Product</span>
+        <img src={performance} alt="" className=" text-white  -ml-6" />
+        <span className=" text-white text-xl -ml-16 font-normal">
+          Performance
+        </span>
+        <img src={deliverable} alt="" className=" text-white  -ml-6" />
+        <span className=" text-white text-xl -ml-16 font-normal">
+          Deliverable
+        </span>
       </div>
       <div className=" gap-5 pb-4 col-start-14 col-span-13 flex flex-row items-center ml-10">
         <div className="">
