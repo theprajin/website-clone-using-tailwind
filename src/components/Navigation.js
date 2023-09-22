@@ -17,22 +17,25 @@ const Navigation = () => {
           The North
         </span>
         <img src={dashboard} alt="" className=" text-white  -ml-1" />
-        <span className=" text-[#676deb] text-xl -ml-16 font-normal">
+        <span className=" text-[#676deb] text-l -ml-16 font-semibold">
           Dashboard
         </span>
         <img src={product} alt="" className=" text-white  -ml-6" />
-        <span className=" text-white text-xl -ml-16 font-normal">Product</span>
+        <span className=" text-white text-l -ml-16 font-semibold">
+          Products
+        </span>
         <img src={performance} alt="" className=" text-white  -ml-6" />
-        <span className=" text-white text-xl -ml-16 font-normal">
+        <span className=" text-white text-l -ml-16 font-semibold">
           Performance
         </span>
         <img src={deliverable} alt="" className=" text-white  -ml-6" />
-        <span className=" text-white text-xl -ml-16 font-normal">
-          Deliverable
+        <span className=" text-white text-l -ml-16 font-semibold">
+          Deliverables
         </span>
       </div>
       <div className=" gap-5 pb-4 col-start-14 col-span-13 flex flex-row items-center ml-10">
         <div className="">
+          <div className="border-l-8 border-white border-solid h-full"></div>
           <img src={search} alt="" className=" text-white " />
         </div>
         <div>

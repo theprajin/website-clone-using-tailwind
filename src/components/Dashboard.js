@@ -9,10 +9,10 @@ const Dashboard = () => {
       </div>
       <div className="btns flex flex-row items-center col-start-15 col-span-6  my-8 ml-14 text-xl">
         <div className="back  border-2 rounded-md py-2 px-4 text-[#4D52C0] ">
-          <a href="">Back</a>
+          <a href="#">Back</a>
         </div>
         <div className="edit-profile mx-10  border-2 rounded-md py-2 px-4 bg-[#4D52C0] ">
-          <a href="" className="text-white">
+          <a href="#" className="text-white">
             Edit Profile
           </a>
         </div>
