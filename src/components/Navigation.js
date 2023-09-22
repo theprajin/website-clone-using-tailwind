@@ -33,10 +33,11 @@ const Navigation = () => {
           Deliverables
         </span>
       </div>
-      <div className=" gap-5 pb-4 col-start-14 col-span-13 flex flex-row items-center ml-10">
+      <div className=" gap-5 pb-4 col-start-14 col-span-13 flex flex-row items-center ml-10 h-16">
         <div className="">
-          <div className="border-l-8 border-white border-solid h-full"></div>
-          <img src={search} alt="" className=" text-white " />
+          <div className=" pl-4">
+            <img src={search} alt="" className=" text-white " />
+          </div>
         </div>
         <div>
           <img src={message} alt="" className=" text-white  ml-6  " />
